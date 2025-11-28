@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.only('verify login for prople HRMS', async ({ page }) => {
+test('verify login for prople HRMS', async ({ page }) => {
 
 await page.goto("https://prople.pro/login#/login");
 await page.waitForTimeout(5000);

@@ -15,7 +15,7 @@ test.beforeEach( async ({ page }) => {
   await page.waitForTimeout(5000);     
 });
 
-test.only('Verify Dashboard page navigation', async ({ page }) => {
+test('Verify Dashboard page navigation', async ({ page }) => {
 await page.getByRole('link', { name: 'Dashboard' }).isVisible();
 });
 

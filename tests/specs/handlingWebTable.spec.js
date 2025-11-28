@@ -1,7 +1,7 @@
 // @ts-check
 import { test, expect } from '@playwright/test';
 
-test.only('has title', async ({ page }) => {
+test('has title', async ({ page }) => {
  await page.goto('https://rahulshettyacademy.com/loginpagePractise/');
 
   const tableName = await page.locator('table[name="courses"] tbody tr');
