@@ -12,7 +12,7 @@ test.only('verify LeaveRequestPage functionality', async ({ page }) => {
     await leaveReqPage.verifyLeaveRequestBtn();
     await leaveReqPage.verifyLeaveBlocks();
     await leaveReqPage.verifyLeaveButtons();
-    //await leaveReqPage.logoutFunctionality();
+    await leaveReqPage.logoutFunctionality();
     
     
 });
