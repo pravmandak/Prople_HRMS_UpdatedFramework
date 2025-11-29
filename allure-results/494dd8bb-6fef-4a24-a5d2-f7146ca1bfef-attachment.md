@@ -1,0 +1,84 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - generic:
+    - list
+    - region "Notifications alt+T"
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - link:
+              - /url: https://prople.pro
+              - img
+            - heading [level=1]: Welcome Back
+            - paragraph: Access your comprehensive HR management dashboard and streamline your workforce operations with confidence.
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - heading [level=3]: Bank-Grade Security
+                  - paragraph: 256-bit SSL encryption
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - heading [level=3]: 99.9% Uptime
+                  - paragraph: Reliable and always available
+          - generic:
+            - generic:
+              - heading [level=2]: Sign In
+              - paragraph: Access your Prople dashboard
+            - generic:
+              - generic: or
+            - generic:
+              - generic:
+                - generic: Email Address
+                - generic:
+                  - img
+                  - textbox:
+                    - /placeholder: john@company.com
+                    - text: Praveen.m@spearsoftech.com
+              - generic:
+                - generic: Password
+                - generic:
+                  - img
+                  - textbox:
+                    - /placeholder: ••••••••
+                    - text: Vihansh77**
+                  - button:
+                    - img
+              - generic:
+                - generic: Forgot Password?
+              - button:
+                - text: Sign In
+                - img
+            - generic:
+              - paragraph: Need help accessing your account?
+              - link:
+                - /url: https://prople.pro/contact
+                - text: Contact Support Team
+    - button:
+      - img
+    - generic: Ask Prople Assistant
+  - generic: "0"
+  - dialog "Already Logged In" [ref=e2]:
+    - generic [ref=e3]:
+      - heading "Already Logged In" [level=2] [ref=e4]:
+        - generic [ref=e5]:
+          - img [ref=e6]
+          - text: Already Logged In
+      - paragraph [ref=e8]:
+        - generic [ref=e9]: "This account is already logged in on another device:: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+        - text: .
+        - text: Do you want to log out there and log in here instead?
+        - text: If you suspect unauthorized access, log in here and immediately change your password with high security.
+    - generic [ref=e10]:
+      - button "Cancel" [active] [ref=e11] [cursor=pointer]
+      - button "Yes, Log me in here" [ref=e12] [cursor=pointer]
+    - button "Close" [ref=e13] [cursor=pointer]:
+      - img [ref=e14]
+      - generic [ref=e17]: Close
+```
