@@ -6,6 +6,6 @@ const login =new Loginpage(page);
 await login.launchApplication();
 await page.waitForTimeout(5000);
 await login.loginApplication();
-await page.waitForTimeout(4000);
+await page.waitForTimeout(3000);
 
 });
