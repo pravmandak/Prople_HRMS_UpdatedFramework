@@ -23,9 +23,13 @@ export default defineConfig({
   ],
   use: {
     trace: 'on-first-retry',
-    baseURL: 'https://playwright.dev',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
+    testData: {
+      URL: 'https://prople.pro/login#/login',
+      UserName: 'Praveen.m@spearsoftech.com',
+      Password: 'Vihansh77**'
+    }
   },
 
   /* Configure projects for major browsers */

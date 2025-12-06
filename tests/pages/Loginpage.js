@@ -22,7 +22,7 @@ async loginApplication(){
 await this.loginbutton.click();
 await this.emailtextbox.fill('Praveen.m@spearsoftech.com');
 await this.password.fill('Vihansh77**')
-await this.signinbutton.click();
+await this.signinbutton.dblclick();
 
 }
 }
